@@ -4,7 +4,7 @@ import sqlite3, logging, cv2, os, datetime, pytz
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-updater = Updater(token='2048953311:AAGTUG1Z2YnJc7ACsZPT3VaVwgPLdXaoR6Q', use_context=True)
+updater = Updater(token='your token', use_context=True)
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
